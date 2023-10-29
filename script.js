@@ -1,7 +1,7 @@
 function searchProfile() {
   const username = document.getElementById('searchInput').value;
 
-  fetch(https://api.github.com/users/${username})
+  fetch(https://api.github.com/users/${duduBmoon21})
     .then(response => response.json())
     .then(data => {
       const profileContainer = document.getElementById('profileContainer');
